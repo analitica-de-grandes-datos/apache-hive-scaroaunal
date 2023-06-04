@@ -53,3 +53,4 @@ select c2 letra, sum(unal.value)
 from tbl0
 lateral view explode(c6) unal AS key, value
 group by c2;
+
